@@ -10,4 +10,5 @@ want to open an issue on. To create a comment on an existing issue, make the
 
 The actual publishing to GitHub is outside of the scope of this plugin, and if
 you want the issues to automatically publish, 
-[use Bridgy](https://brid.gy/about#github-issue-comment).
+[use Bridgy](https://brid.gy/about#github-issue-comment). The plugin will send
+webmentions to Bridgy automatically.
