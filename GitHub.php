@@ -68,7 +68,7 @@
                 $body = \Idno\Core\site()->currentPage()->getInput('body');
                 if (!empty($body)) {
 
-                    $this->body            = $body;
+                    $this->body            = $body . ' <a href="https://brid.gy/publish/github"></a>';
                     $this->title           = \Idno\Core\site()->currentPage()->getInput('title');
                     $this->targetURL       = \Idno\Core\site()->currentPage()->getInput('targetURL');
                     $access                = \Idno\Core\site()->currentPage()->getInput('access');
